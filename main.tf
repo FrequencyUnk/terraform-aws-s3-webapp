@@ -11,7 +11,7 @@ resource "aws_s3_bucket" "bucket" {
     "Version": "2012-10-17",
     "Statement": [
         {
-            "Sid": "PublicReadGetObject",
+            "Sid": "PrivateObjectTest",
             "Effect": "Allow",
             "Principal": "*",
             "Action": [
